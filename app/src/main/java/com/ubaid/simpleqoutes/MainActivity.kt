@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         CoroutineScope(Dispatchers.IO).launch {
-            delay(10000)
+            delay(5000)
             DataManager.loadAssetsFromFile(applicationContext)
 
         }

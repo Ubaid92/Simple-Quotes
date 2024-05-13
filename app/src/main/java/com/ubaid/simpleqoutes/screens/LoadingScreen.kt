@@ -11,7 +11,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-@Preview
 @Composable
 fun LoadingScreen() {
     Box(
@@ -25,7 +24,7 @@ fun LoadingScreen() {
         )
         Text(
             modifier = Modifier.align(Alignment.BottomCenter)
-                .padding(0.dp,0.dp,0.dp,20.dp),
+                .padding(0.dp,0.dp,0.dp,50.dp),
             text = "Created by Ubaid Niazi",
             style = MaterialTheme.typography.bodyLarge,
 
